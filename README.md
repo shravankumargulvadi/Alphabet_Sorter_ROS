@@ -21,3 +21,7 @@ The program has a generic ROS services template with a service server 'sorter_se
 launch files in the launch folder. The client launch file also launches the server, once launched the client waits for a string to be published in the /input topic
 and once published it sends the message across to the server to sort it. The server publishes the message in the /output topic.
 
+## Sample results
+![screen1](https://user-images.githubusercontent.com/19910970/177228502-f105e6ff-0152-4fca-a9c9-899d8c7ed179.png)
+![screen2](https://user-images.githubusercontent.com/19910970/177228513-404c10a2-50a4-4cb1-b427-db995badef97.png)
+![screen3](https://user-images.githubusercontent.com/19910970/177228522-f65ec53c-e4f0-4ee7-b264-c02c5f8ca939.png)
